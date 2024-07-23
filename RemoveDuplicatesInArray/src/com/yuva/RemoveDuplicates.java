@@ -12,7 +12,7 @@ public class RemoveDuplicates {
 		}
 		Iterator<Integer> itr = set.iterator();
 		while (itr.hasNext()) {
-			System.out.println(itr.next());
+			System.out.print(itr.next());
 		}
 	}
 }
