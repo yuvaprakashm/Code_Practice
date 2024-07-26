@@ -1,3 +1,7 @@
+//Divide and conquer and array should be in sorted array
+//10 20 30 40 50
+// |		   |	
+//lb		  ub	 
 package com.yuva;
 
 import java.util.Scanner;

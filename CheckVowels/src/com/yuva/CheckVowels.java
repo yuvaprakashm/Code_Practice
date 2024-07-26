@@ -2,8 +2,16 @@ package com.yuva;
 
 public class CheckVowels {
 	public static void main(String[] args) {
-		String str = "Hello World";
-		boolean hasVowels = str.matches(".*[aeiouAEIOU]*.");
-		System.out.println(hasVowels);
+		String str = "sky";
+ 
+		if(str.matches(".*[aeiouAEIOU].*")) 
+		{
+			System.out.println("The word -> " + str + "  -- contains vowels");
+		}
+		else 
+		{
+				System.out.println("The word -> " + str + " --  not contains vowels");	
+		}
 	}
+
 }
