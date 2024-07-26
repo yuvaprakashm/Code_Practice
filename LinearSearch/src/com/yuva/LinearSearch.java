@@ -1,3 +1,7 @@
+//searching algorithm to check whether the element is present in the array
+//finding location of element
+
+
 package com.yuva;
 
 import java.util.Scanner;
