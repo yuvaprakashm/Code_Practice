@@ -6,7 +6,7 @@ public class FascinatingNumber {
 		n2 = num * 2;
 		n3 = num * 3;
 
-		String concatStr = num + "" + n2 + n3;
+		String concatStr = num + "" + n2 + n3; //273546819
 		boolean found = true;
 		for (char c = '1'; c <= '9'; c++) {
 			int count = 0;
